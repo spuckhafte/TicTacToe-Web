@@ -206,8 +206,6 @@ tiles.forEach((tile) => {
         if (check_win(v, winning_rows2) === 0) {
           oWin = true;
           document.querySelector(".head").childNodes[0].nodeValue = "0 Wins ";
-          document.querySelector("#retry").className = "fa fa-undo fa-inverse";
-          console.log(document.querySelector("#retry"));
           blackOut(locations);
         }
       }
