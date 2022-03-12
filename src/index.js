@@ -214,7 +214,6 @@ tiles.forEach((tile) => {
 });
 
 let retry = document.getElementById("retry");
-console.log(retry);
 retry.addEventListener("click", () => {
   v = {
     1: " ",
